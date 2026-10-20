@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arshdeep Kaur | GRC, IT Audit & Cybersecurity Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            600: '#0284c7',
+                            800: '#0369a1',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #ffffff; color: #1e293b; }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-600 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div>
+                    <a href="#" class="text-xl font-bold tracking-tight text-slate-900">Arshdeep Kaur</a>
+                    <p class="text-xs text-slate-500 font-medium">IT Audit, GRC & Cybersecurity Leader</p>
+                </div>
+                <div class="hidden md:flex space-x-6 items-center text-sm font-medium">
+                    <a href="#about" class="hover:text-brand-600 transition-colors">About & NZ Transition</a>
+                    <a href="#skills" class="hover:text-brand-600 transition-colors">Core Capabilities</a>
+                    <a href="#projects" class="hover:text-brand-600 transition-colors">Projects & Validation</a>
+                    <a href="#community" class="hover:text-brand-600 transition-colors">Community & Learning</a>
+                    <a href="#contact" class="px-4 py-2 bg-slate-900 text-white rounded-md hover:bg-slate-800 transition-all shadow-sm">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header class="pt-36 pb-16 border-b border-slate-100 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center px-3 py-1 rounded-md bg-white border border-slate-200 text-slate-700 text-xs font-medium mb-4 shadow-sm">
+                    <i class="fas fa-map-marker-alt mr-2 text-brand-600"></i> Auckland, New Zealand | Master of IT (Cybersecurity) Candidate
+                </div>
+                <h1 class="text-4xl sm:text-5xl font-bold text-slate-900 tracking-tight mb-4">
+                    Enterprise IT Governance, Risk & Control Validation.
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    Seasoned Validation Lead and Security Professional combining 13+ years of enterprise IT audit and military telecommunications leadership with rigorous control evaluation, evidence triangulation, and regulatory alignment.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://www.linkedin.com/in/arshdeep-kaur-resilient" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 bg-[#0a66c2] text-white font-medium text-sm rounded-md hover:bg-[#084e96] transition-all flex items-center shadow-sm">
+                        <i class="fab fa-linkedin mr-2 text-lg"></i> LinkedIn Profile
+                    </a>
+                    <a href="mailto:arshbindra89@gmail.com" class="px-5 py-2.5 bg-white border border-slate-300 text-slate-800 font-medium text-sm rounded-md hover:bg-slate-100 transition-all flex items-center shadow-sm">
+                        <i class="fas fa-envelope mr-2"></i> arshbindra89@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About & New Zealand Context Section -->
+    <section id="about" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+            <span class="w-2.5 h-2.5 bg-brand-600 rounded-full mr-3"></span> Background & NZ Transition
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-slate-600 text-sm leading-relaxed">
+            <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-4">
+                <h3 class="font-bold text-slate-900 text-base">Master of IT (Cybersecurity) & Career Evolution</h3>
+                <p>
+                    After building a 13-year foundation in military telecommunications management and enterprise IT audit (including serving as AVP at Deutsche Bank), I relocated to Auckland, New Zealand, to pursue my Master of Information Technology specializing in Cybersecurity. 
+                </p>
+                <p>
+                    This educational journey bridges my extensive international audit background with New Zealand's rigorous legislative and data privacy landscape, enabling me to align complex enterprise frameworks with local requirements.
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-4">
+                <h3 class="font-bold text-slate-900 text-base">Aligning with the New Zealand Privacy Act 2020</h3>
+                <p>
+                    In my ongoing academic research and risk assessments, I actively map enterprise-grade governance controls against the <strong>13 Information Privacy Principles (IPPs)</strong> of the New Zealand Privacy Act 2020.
+                </p>
+                <p>
+                    Special focus is placed on <strong>IPP 5 (Storage and Security of Personal Information)</strong> and <strong>IPP 9 (Checking Accuracy of Personal Information before Use)</strong>, ensuring that cloud CMDB integrations and API data flows uphold New Zealand's high standards for safety, transparency, and resilience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Capabilities & Skills Section -->
+    <section id="skills" class="py-20 bg-slate-50 border-y border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                <span class="w-2.5 h-2.5 bg-brand-600 rounded-full mr-3"></span> Core Capabilities & Expertise
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                    <div class="text-brand-600 mb-3 text-xl"><i class="fas fa-search-shield"></i></div>
+                    <h3 class="font-bold text-slate-900 mb-2">IT Audit & Validation</h3>
+                    <ul class="text-xs text-slate-600 space-y-1.5 list-disc pl-4">
+                        <li>Control design & operating effectiveness</li>
+                        <li>Evidence triangulation & root-cause analysis</li>
+                        <li>Professional skepticism over management assertions</li>
+                        <li>Closure quality optimization (95% rate)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                    <div class="text-brand-600 mb-3 text-xl"><i class="fas fa-shield-alt"></i></div>
+                    <h3 class="font-bold text-slate-900 mb-2">Governance & Standards</h3>
+                    <ul class="text-xs text-slate-600 space-y-1.5 list-disc pl-4">
+                        <li>ISO/IEC 27001:2022 & ISO 42001 (AI Governance)</li>
+                        <li>EU DORA & MAS TRMG compliance</li>
+                        <li>NZ Privacy Act 2020 alignment</li>
+                        <li>Third-Party Risk Management (TPRM)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+                    <div class="text-brand-600 mb-3 text-xl"><i class="fas fa-network-wired"></i></div>
+                    <h3 class="font-bold text-slate-900 mb-2">Infrastructure & Operations</h3>
+                    <ul class="text-xs text-slate-600 space-y-1.5 list-disc pl-4">
+                        <li>Cloud CMDB (ServiceNow, GCP)</li>
+                        <li>API Lifecycle & Gateway Governance</li>
+                        <li>Tactical Telecommunications & IP-EPABX</li>
+                        <li>IT Service Management (ITIL V4)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Validation Work (Interactive Buttons) -->
+    <section id="projects" class="py-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold text-slate-900 mb-2 flex items-center">
+            <span class="w-2.5 h-2.5 bg-brand-600 rounded-full mr-3"></span> Projects & Validation Work
+        </h2>
+        <p class="text-sm text-slate-500 mb-8">Click each project below to examine my validation methodology, critical thinking, and technical execution.</p>
+
+        <!-- Project Navigation Buttons -->
+        <div class="flex flex-wrap gap-3 mb-8">
+            <button onclick="switchProject('api')" id="btn-api" class="px-4 py-2 text-xs font-semibold rounded-md bg-slate-900 text-white transition-all shadow-sm">API Governance</button>
+            <button onclick="switchProject('cmdb')" id="btn-cmdb" class="px-4 py-2 text-xs font-semibold rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all border border-slate-200">Cloud CMDB Integrity</button>
+            <button onclick="switchProject('sirm')" id="btn-sirm" class="px-4 py-2 text-xs font-semibold rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all border border-slate-200">Cyber Hygiene & SIRM</button>
+            <button onclick="switchProject('army')" id="btn-army" class="px-4 py-2 text-xs font-semibold rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all border border-slate-200">Army Telecom & Cyber</button>
+        </div>
+
+        <!-- Project Content Panels -->
+        <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-sm">
+            
+            <!-- Project 1: API -->
+            <div id="proj-api" class="tab-content active space-y-4">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">API Governance & Regulatory Adherence</h3>
+                        <p class="text-xs text-brand-600 font-medium mt-1">MAS TRMG & FRBNY Mandate Alignment | DB Catalog, Apigee, Glue</p>
+                    </div>
+                </div>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    Addressed regulatory mandates requiring strict governance over internal and third-party APIs. The bank lacked a centralized inventory, creating compliance exposure.
+                </p>
+                <div class="border-t border-slate-100 pt-4 space-y-2 text-sm text-slate-600">
+                    <p><strong>My Validation Methodology & Thinking:</strong></p>
+                    <ul class="list-disc pl-5 space-y-1 text-xs">
+                        <li>Mapped external regulatory requirements directly to internal SDLC Key Operating Documents (KODs).</li>
+                        <li>Verified automated daily synchronization feeds syncing data from Apigee, Glue, and Strom into a central DB Catalog.</li>
+                        <li>Tested Operational Readiness Review (ORR) controls to ensure security checks were hard-gated prior to production deployment.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 2: CMDB -->
+            <div id="proj-cmdb" class="tab-content space-y-4">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">Cloud CMDB Data Integrity & Asset Governance</h3>
+                        <p class="text-xs text-brand-600 font-medium mt-1">DB Unity 1 to DB Unity 2 Transition | GCP Integration</p>
+                    </div>
+                </div>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    Resolved incident traceability gaps caused by unintegrated Google Cloud Platform (GCP) assets relying on generic configuration items (CIs).
+                </p>
+                <div class="border-t border-slate-100 pt-4 space-y-2 text-sm text-slate-600">
+                    <p><strong>My Validation Methodology & Thinking:</strong></p>
+                    <ul class="list-disc pl-5 space-y-1 text-xs">
+                        <li>Validated the system-enforced retirement of generic CIs and implementation of mandatory CSDM fields.</li>
+                        <li>Reviewed Extended Data Quality Reports (EDQR) to test ongoing data accuracy and synchronization success.</li>
+                        <li>Ensured formal oversight and accountability via the IT/AM Steering Committee.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 3: SIRM -->
+            <div id="proj-sirm" class="tab-content space-y-4">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">Cyber Hygiene & Vulnerability Management</h3>
+                        <p class="text-xs text-brand-600 font-medium mt-1">Legacy SIRM Decommissioning to Brinqa & ServiceNow</p>
+                    </div>
+                </div>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    Managed validation over a backlog of 6,100+ unassessed findings across 74 applications during legacy tool migration.
+                </p>
+                <div class="border-t border-slate-100 pt-4 space-y-2 text-sm text-slate-600">
+                    <p><strong>My Validation Methodology & Thinking:</strong></p>
+                    <ul class="list-disc pl-5 space-y-1 text-xs">
+                        <li>Distinguished true residual risk from tool transition noise and false positives.</li>
+                        <li>Validated exception governance workflows, verifying PTISO approvals and immutable logs.</li>
+                        <li>Confirmed closed items demonstrated sustainable root-cause remediation rather than surface-level completion.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Project 4: Army -->
+            <div id="proj-army" class="tab-content space-y-4">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900">Tactical Telecommunications & Cybersecurity</h3>
+                        <p class="text-xs text-brand-600 font-medium mt-1">Indian Army (Corps of Signals) | 12 Years Commissioned Service</p>
+                    </div>
+                </div>
+                <p class="text-sm text-slate-600 leading-relaxed">
+                    Directed network modernization and security governance across distributed military infrastructure under high-stakes field conditions.
+                </p>
+                <div class="border-t border-slate-100 pt-4 space-y-2 text-sm text-slate-600">
+                    <p><strong>My Validation Methodology & Thinking:</strong></p>
+                    <ul class="list-disc pl-5 space-y-1 text-xs">
+                        <li>Overhauled legacy links delivering a 650% throughput improvement across 17 detachments.</li>
+                        <li>Conducted 6+ annual IT governance audits, maintaining zero critical security non-compliance findings for 3 consecutive years.</li>
+                        <li>Optimized incident response SOPs, reducing response time by 40%.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Community, Continuous Learning & Hobbies Section -->
+    <section id="community" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            
+            <!-- Community & Professional Engagement -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                    <span class="w-2.5 h-2.5 bg-brand-600 rounded-full mr-3"></span> Community & Professional Engagement
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+                    <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-2">
+                        <h3 class="font-bold text-slate-900"><i class="fas fa-users text-brand-600 mr-2"></i> GridAKL & Tech Hubs</h3>
+                        <p class="text-slate-600 text-xs">Active participant in GridAKL events and Auckland's vibrant tech community, engaging with local security practitioners and innovators.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-2">
+                        <h3 class="font-bold text-slate-900"><i class="fas fa-laptop-code text-brand-600 mr-2"></i> Startup Week & Migrants in Tech</h3>
+                        <p class="text-slate-600 text-xs">Engaged in Auckland Startup Week workshops and Migrants in Tech forums, exploring agile risk models and startup security needs.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-2">
+                        <h3 class="font-bold text-slate-900"><i class="fas fa-microphone-alt text-brand-600 mr-2"></i> CIO Summits & Forums</h3>
+                        <p class="text-slate-600 text-xs">Attended recent CIO summits in Auckland, tracking enterprise cloud resilience trends, executive reporting, and AI governance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications & Continuous Professional Education -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                    <span class="w-2.5 h-2.5 bg-brand-600 rounded-full mr-3"></span> Certifications & Continuous Learning
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                    <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-3 text-slate-600">
+                        <h3 class="font-bold text-slate-900 text-base">Professional Certifications</h3>
+                        <p>• <strong>Project Management Professional (PMP)</strong></p>
+                        <p>• <strong>Certified Information Systems Auditor (CISA)</strong></p>
+                        <p>• <strong>ISO/IEC 27001 Lead Auditor</strong></p>
+                        <p>• <strong>Cybersecurity for Professionals</strong> (NPTEL Proctored Exam, Govt. of India)</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm space-y-3 text-slate-600">
+                        <h3 class="font-bold text-slate-900 text-base">Continuous Professional Education (CPE)</h3>
+                        <p>• Completed 3-day intensive CPE training with <strong>Audit Research Centre (ARC, Europe)</strong> covering advanced risk and governance methodologies.</p>
+                        <p>• Ongoing self-directed learning in AI Workspace governance, compliance automation, and cloud security frameworks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hobbies & Tech Enthusiast -->
+            <div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                    <span class="w-2.5 h-2.5 bg-brand-600 rounded-full mr-3"></span> Tech Enthusiast & Personal Interests
+                </h2>
+                <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm text-sm text-slate-600 space-y-2">
+                    <p>• <strong>Lifelong Tech Learner:</strong> Passionate about exploring emerging tech, AI workspace tools, and security framework mapping.</p>
+                    <p>• <strong>Community Connector:</strong> Enjoy sharing coffee conversations and exchanging ideas with fellow audit and tech professionals.</p>
+                    <p>• <strong>Avid Traveler & Culinary Explorer:</strong> Loves discovering new cultures, hiking scenic trails, and exploring food and coffee spots.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact" class="py-16 bg-slate-900 text-slate-300 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+            <h2 class="text-2xl font-bold text-white">Let's Connect</h2>
+            <p class="text-sm text-slate-400 max-w-xl mx-auto">
+                Currently based in Auckland, New Zealand, pursuing my Master of IT in Cybersecurity and open to professional discussions in IT Audit, Risk Management, and Cybersecurity Governance.
+            </p>
+            <div class="pt-4 flex justify-center gap-4">
+                <a href="mailto:arshbindra89@gmail.com" class="px-6 py-2.5 bg-brand-600 text-white font-medium text-sm rounded-md hover:bg-brand-500 transition-all shadow-sm">
+                    <i class="fas fa-envelope mr-2"></i> Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/arshdeep-kaur-resilient" target="_blank" rel="noopener noreferrer" class="px-6 py-2.5 bg-slate-800 text-white font-medium text-sm rounded-md hover:bg-slate-700 transition-all border border-slate-700">
+                    <i class="fab fa-linkedin mr-2"></i> LinkedIn Profile
+                </a>
+            </div>
+            <p class="text-xs text-slate-500 pt-8">
+                &copy; <script>document.write(new Date().getFullYear())</script> Arshdeep Kaur. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Interactive Project Tab Switching Logic
+        function switchProject(projectKey) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            // Reset all buttons
+            ['api', 'cmdb', 'sirm', 'army'].forEach(key => {
+                const btn = document.getElementById(`btn-${key}`);
+                btn.className = "px-4 py-2 text-xs font-semibold rounded-md bg-slate-100 text-slate-700 hover:bg-slate-200 transition-all border border-slate-200";
+            });
+            // Activate selected tab and button
+            document.getElementById(`proj-${projectKey}`).classList.add('active');
+            const activeBtn = document.getElementById(`btn-${projectKey}`);
+            activeBtn.className = "px-4 py-2 text-xs font-semibold rounded-md bg-slate-900 text-white transition-all shadow-sm";
+        }
+    </script>
+</body>
+</html>
